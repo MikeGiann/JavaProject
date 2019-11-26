@@ -45,9 +45,7 @@ public class SearchGUI extends JFrame
         }
 
         // Create Vectors and copy over elements from ArrayLists to them
-        // Vector is deprecated but I am using them in this example to keep 
-        // things simple - the best practice would be to create a custom defined
-        // class which inherits from the AbstractTableModel class
+
         Vector columnNamesVector = new Vector();
         Vector dataVector = new Vector();
 
